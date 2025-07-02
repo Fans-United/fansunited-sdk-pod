@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "FansUnitedSDK"
-  spec.version            = "1.0.3"
+  spec.version            = "1.0.3-RC1"
   spec.summary            = "Fans United KMM SDK"
   spec.description        = <<-DESC
                             Fans United KMM SDK is a Kotlin Multiplatform Mobile SDK for Fans United APIs.
