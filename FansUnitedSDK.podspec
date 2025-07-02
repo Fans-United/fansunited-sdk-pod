@@ -22,8 +22,8 @@ Pod::Spec.new do |spec|
                             DESC
   spec.homepage           = "https://fansunitedmedia.com/"
   spec.documentation_url  = "https://docs.fansunitedmedia.com/"
-  spec.license            = { :type => "MIT" }
-  spec.author             = { "Fans United Media" => "support@fansunitedmedia.com" }
+  spec.license            = { :type => "Commercial", :file => "LICENSE" }
+  spec.author             = { "Fans United Media" => "support@fansunitedmedia.com", "Borislav Gizdov" => "borislav@fansunitedmedia.com" }
   spec.source             = { :git => 'https://github.com/Fans-United/fansunited-sdk-pod.git', :tag => "#{spec.version}" }
   spec.swift_version      = "5.3"
 
