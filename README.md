@@ -311,7 +311,7 @@ do {
 
 ```swift
 do {
-    let player = try await sdk.football().getPlayerById(id: "player123", disableCache: false)
+    let player = try await sdk.football().getPlayerById(id: "fb:p:123", disableCache: false)
     print("Player: \(player.name)")
     print("Position: \(player.position?.name ?? "Unknown")")
 } catch {
@@ -335,7 +335,7 @@ do {
 
 ```swift
 do {
-    let nextMatch = try await sdk.football().getNextMatchForPlayer(id: "player123", disableCache: false)
+    let nextMatch = try await sdk.football().getNextMatchForPlayer(id: "fb:p:123", disableCache: false)
     if let match = nextMatch {
         print("Next match: \(match.homeTeam.name) vs \(match.awayTeam.name)")
     }
@@ -361,7 +361,7 @@ do {
 
 ```swift
 do {
-    let prevMatch = try await sdk.football().getPrevMatchForPlayer(id: "player123", disableCache: false)
+    let prevMatch = try await sdk.football().getPrevMatchForPlayer(id: "fb:p:123", disableCache: false)
     if let match = prevMatch {
         print("Previous match: \(match.homeTeam.name) vs \(match.awayTeam.name)")
     }
