@@ -1082,7 +1082,7 @@ do {
 }
 ```
 
-## Loyalty API
+## Loyalty Operations
 
 ### Core Data Models
 
